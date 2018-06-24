@@ -4,6 +4,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParser.Api", "XMLParser.Api\XMLParser.Api.csproj", "{C3E97E1B-D482-480B-BAFC-0FA5A287A54E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC0D0954-783B-4CBB-ABAB-B7F458714994} = {DC0D0954-783B-4CBB-ABAB-B7F458714994}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParser.BusinessLogic", "XMLParser.BusinessLogic\XMLParser.BusinessLogic.csproj", "{DC0D0954-783B-4CBB-ABAB-B7F458714994}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParser.Model", "XMLParser.Model\XMLParser.Model.csproj", "{3313B7C4-8E6D-438E-8CB3-A7F3F14ED60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLParser.BusinessLogicTests", "XMLParser.BusinessLogicTests\XMLParser.BusinessLogicTests.csproj", "{9197539A-E9D7-4FAA-BCC2-5CF2A7606EAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +24,18 @@ Global
 		{C3E97E1B-D482-480B-BAFC-0FA5A287A54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3E97E1B-D482-480B-BAFC-0FA5A287A54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3E97E1B-D482-480B-BAFC-0FA5A287A54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC0D0954-783B-4CBB-ABAB-B7F458714994}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC0D0954-783B-4CBB-ABAB-B7F458714994}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC0D0954-783B-4CBB-ABAB-B7F458714994}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC0D0954-783B-4CBB-ABAB-B7F458714994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3313B7C4-8E6D-438E-8CB3-A7F3F14ED60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3313B7C4-8E6D-438E-8CB3-A7F3F14ED60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3313B7C4-8E6D-438E-8CB3-A7F3F14ED60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3313B7C4-8E6D-438E-8CB3-A7F3F14ED60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9197539A-E9D7-4FAA-BCC2-5CF2A7606EAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9197539A-E9D7-4FAA-BCC2-5CF2A7606EAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9197539A-E9D7-4FAA-BCC2-5CF2A7606EAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9197539A-E9D7-4FAA-BCC2-5CF2A7606EAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
